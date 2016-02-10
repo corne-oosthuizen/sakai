@@ -7114,7 +7114,7 @@ public class DiscussionForumTool
         while (roleIter.hasNext())
         {
           Role role = (Role) roleIter.next();
-          if (role != null && AuthzGroupService.isRoleAssignable(role.getId()))
+          if (role != null) 
           {
             if(i==0)
             {
